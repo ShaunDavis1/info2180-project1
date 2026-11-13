@@ -20,6 +20,14 @@ body {
 }
 
 /* styling for the header of the landing page */
+header {
+    background-color: white;
+}
+
+header h1 {
+    font-size: 18px;
+}
+
 header .container {
     display: flex;
     justify-content: space-between;
@@ -33,6 +41,17 @@ nav ul {
     gap: 20px;
     padding: 0;
     margin: 0;
+}
+
+nav a {
+    color: #6b7280;
+    font-size: 18px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+nav a:hover {
+    color: #5A67DB;
 }
 
 /* styling for the 'Hero Overview' Section */
