@@ -67,3 +67,23 @@ nav ul {
     object-fit: cover;
     
 }
+
+/* styling for the COVID19 section */
+.testing .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.testing-desciption {
+    flex: 1;
+}
+
+
+.btn {
+    color: white;
+    background-color: green;
+    border-radius: 15px;
+    padding: 12px 24px;
+}
