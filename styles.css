@@ -55,6 +55,9 @@ nav a:hover {
 }
 
 /* styling for the 'Hero Overview' Section */
+.overview-hero {
+    background-color: #e2e8f0;
+}
 .overview-hero .container {
     display: flex;
     align-items: center;
@@ -70,23 +73,30 @@ nav a:hover {
 }
 
 .overview-hero-image img {
-    width: 100%;
+    width: 50%;
     height: auto;
 }
 
 /* styling for the 'Learn About' section */
+.learn-about h2 {
+    font-size: 24px;
+    color: #48BB78;
+}
 .learn-about .cards {
     display: grid;
     /* a 3 column grid */
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+
 }
 
 .card {
     box-sizing: border-box;
     padding: 20px;
     border-radius: 10px;
-    border: 2px solid black;
+    border: 2px solid #e2e8f0;
+    box-shadow: 5px 5px 15px 0px rgba(226, 232, 240, 0.20);
+    border-radius: 5px;
 }
 
 .card img {
