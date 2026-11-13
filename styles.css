@@ -13,7 +13,7 @@ body {
 .container {
     margin: 0 auto;
     max-width: 960px;
-    width: 100%;
+    width: 90%;
 }
 
 /* styling for the header of the landing page */
@@ -77,6 +77,11 @@ nav a:hover {
 }
 
 /* styling for the 'Learn About' section */
+.learn-about, 
+    .stories {
+    padding: 40px 0;
+
+}
 .learn-about h2 {
     font-size: 24px;
     color: #48BB78;
@@ -113,8 +118,7 @@ nav a:hover {
 .testing {
     color: white;
     background-color: #4a5568;
-    padding: 20px 20px 15px 15px;
-    margin: 20px 20px 15px 15px;
+    padding: 60px 0;
 }
 .testing .container {
     display: flex;
@@ -129,10 +133,10 @@ nav a:hover {
 }
 
 
-.testing.btn {
+.testing .btn {
     display: inline-block;
     color: white;
-    background-color: #48BB78
+    background-color: #48BB78;
     border-radius: 5px;
     padding: 12px 24px;
     border: none;
@@ -153,6 +157,7 @@ nav a:hover {
     object-fit: cover;
     margin-right: 20px;
     border-radius: 50%;
+    
 }
 
 .stories article {
@@ -192,14 +197,18 @@ nav a:hover {
     margin-top: 20px;
 }
 .form-group input[type="email"] {
-    padding: 12px;
+    max-width: 100%;
     margin: 0;
     border: none;
     border-radius: 5px;
+    box-sizing: border-box;
+    padding: 12px;
+    border: none;
+    
 
 }
 .newsletter .btn {
-    background-color: #5A67DB;
+    background-color: #5a67d8;
     color: white;
     border: none;
     border-radius: 5px;
