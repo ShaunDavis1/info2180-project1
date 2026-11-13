@@ -32,6 +32,7 @@ header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 20px 20px 15px 15px;
 }
 
 /* remove the bullet points and arrange the links horizontally */
@@ -57,6 +58,7 @@ nav a:hover {
 /* styling for the 'Hero Overview' Section */
 .overview-hero {
     background-color: #e2e8f0;
+    margin: 20px 20px 15px 15px;
 }
 .overview-hero .container {
     display: flex;
@@ -82,6 +84,11 @@ nav a:hover {
     font-size: 24px;
     color: #48BB78;
 }
+
+.learn-about h3 {
+    color: #48BB78;
+    font-size: 21px;
+}
 .learn-about .cards {
     display: grid;
     /* a 3 column grid */
@@ -97,6 +104,8 @@ nav a:hover {
     border: 2px solid #e2e8f0;
     box-shadow: 5px 5px 15px 0px rgba(226, 232, 240, 0.20);
     border-radius: 5px;
+    padding: 20px 20px 15px 15px;
+    margin: 20px 20px 15px 15px;
 }
 
 .card img {
@@ -107,6 +116,12 @@ nav a:hover {
 }
 
 /* styling for the 'COVID-19 Testing Programme' section */
+.testing {
+    color: white;
+    background-color: #4a5568;
+    padding: 20px 20px 15px 15px;
+    margin: 20px 20px 15px 15px;
+}
 .testing .container {
     display: flex;
     justify-content: space-between;
@@ -116,12 +131,13 @@ nav a:hover {
 
 .testing-desciption {
     flex: 1;
+    
 }
 
 
 .btn {
     display: inline-block;
-    color: white;
+    color: #48BB78;
     background-color: green;
     border-radius: 5px;
     padding: 12px 24px;
