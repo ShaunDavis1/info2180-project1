@@ -164,6 +164,20 @@ nav a:hover {
 .stories article {
     display: flow-root;
     margin-bottom: 30px;
+    
+}
+
+.stories .container h2 {
+    color:#5A67DB;
+}
+
+.stories article a {
+    color:#5A67DB;
+    text-decoration: none;
+}
+
+.article-body h3 {
+    font-size: 18px;
 }
 
 /* styling for the 'Newsletter' section */
