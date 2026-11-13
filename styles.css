@@ -87,3 +87,18 @@ nav ul {
     border-radius: 15px;
     padding: 12px 24px;
 }
+
+/* styling the 'Recent Stories' section */
+.stories article img {
+    float: left;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-right: 20px;
+    border-radius: 200px;
+}
+
+.stories article {
+    display: flow-root;
+    margin-bottom: 30px;
+}
