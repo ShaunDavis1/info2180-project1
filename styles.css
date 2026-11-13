@@ -26,7 +26,7 @@ nav ul {
     margin: 0;
 }
 
-/* styling for the Hero Overview Section */
+/* styling for the 'Hero Overview' Section */
 .overview-hero .container {
     display: flex;
     align-items: center;
@@ -46,7 +46,7 @@ nav ul {
     height: auto;
 }
 
-/* styling for the learn about section */
+/* styling for the 'Learn About' section */
 .learn-about .cards {
     display: grid;
     /* a 3 column grid */
@@ -68,7 +68,7 @@ nav ul {
     
 }
 
-/* styling for the COVID19 section */
+/* styling for the 'COVID-19 Testing Programme' section */
 .testing .container {
     display: flex;
     justify-content: space-between;
@@ -82,10 +82,19 @@ nav ul {
 
 
 .btn {
+    display: inline-block;
     color: white;
     background-color: green;
-    border-radius: 15px;
+    border-radius: 5px;
     padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    text-decoration: none;
+}
+
+.btn:hover {
+    transform: scale(1.1);
 }
 
 /* styling the 'Recent Stories' section */
@@ -101,4 +110,30 @@ nav ul {
 .stories article {
     display: flow-root;
     margin-bottom: 30px;
+}
+
+/* styling for the 'Newsletter' section */
+.newsletter .container {
+    text-align: center;
+}
+
+.newsletter form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.newsletter .btn {
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 24px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.newsletter .btn:hover {
+    transform: scale(1.1);
 }
